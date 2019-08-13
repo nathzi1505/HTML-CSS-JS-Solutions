@@ -1,0 +1,88 @@
+/* Making the box: border inclusive */
+* {
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+  font-size: 1.75em;
+  text-align: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* Achoring the sections */
+#chicken, #beef, #sushi {
+  position: relative;
+  background-color: #999999;
+}
+
+/* Section Area Styles */
+div.section-area {
+  padding: 10px;
+  border: 1px solid;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* Section - Tag Styles */
+div.section-area span.section-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 1.25em;
+}
+
+/* Section - Description Styles */
+article.section-description {
+  text-align: justify;
+  margin-top: 25px;
+}
+
+/* Customizing the colors */
+div#chicken span.section-tag {
+  background-color: #cc9a99;
+}
+div#beef span.section-tag {
+  color: white;
+  background-color: #ab4944;
+}
+div#sushi span.section-tag {
+  background-color: #e2d19f;
+}
+
+
+/* Desktop version (width > 992px) */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    padding: 5px;
+    width: 33%;
+  }
+}
+
+/* Tablet version (768px < width < 991 px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-md-6 {
+    float: left;
+    padding: 5px;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+/* Mobile version (width < 767px) */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
+}
