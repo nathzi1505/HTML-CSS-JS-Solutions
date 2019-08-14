@@ -1,0 +1,52 @@
+html, body {
+  overflow-x: hidden;
+}
+
+#navbar {
+  padding: 20px;
+  margin: 0;
+  background-color: #999999;
+}
+
+#nav-list > li:nth-child(2) {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#navbarSupportedContent {
+  margin-top: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+#page-heading {
+  text-transform: capitalize;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.section-area {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: #c1c1c1;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.section-description {
+  padding: 5px;
+}
+
+.nav-item a, .nav-item a:visited, .nav-item a:hover, .nav-item a:active {
+  color: inherit;
+}
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
