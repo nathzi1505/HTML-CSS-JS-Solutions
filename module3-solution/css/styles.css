@@ -24,7 +24,8 @@ html, body {
 }
 
 #page-heading {
-  text-transform: capitalize;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-transform: uppercase;
   margin-top: 5px;
   padding: 5px;
 }
@@ -43,6 +44,10 @@ html, body {
 
 .nav-item a, .nav-item a:visited, .nav-item a:hover, .nav-item a:active {
   color: inherit;
+}
+
+hr {
+  size: "10";
 }
 
 /* * {
